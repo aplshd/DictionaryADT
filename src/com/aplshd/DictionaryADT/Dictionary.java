@@ -16,13 +16,12 @@ public class Dictionary {
 	 * Constructor
 	 */
 	Dictionary() {
-		System.out.println("Dictionary constructor");
 		value = 0;
 		parent = null;
 		left = null;
 		right = null;
 	}
-	
+
 	/**
 	 * For setting up the dictionary with values from
 	 * the file InputF ileName
@@ -46,8 +45,8 @@ public class Dictionary {
 	 * inserts the integer val into the dictionary
 	 * @param val
 	 */
-	void Insert(int val) {
-		
+	void insert(int val) {
+		System.out.println("Dictionary class insert");
 	}
 	
 	/**
@@ -55,7 +54,7 @@ public class Dictionary {
 	 * @param val
 	 * @return 1 if deletion is successful
 	 */
-	boolean Delete(int val) {
+	boolean delete(int val) {
 		return true;
 	}
 	
@@ -64,21 +63,21 @@ public class Dictionary {
 	 * @param val
 	 * @return 1 if element is found in the dictionary
 	 */
-	boolean Search(int val) {
+	boolean search(int val) {
 		return true;
 	}
 
 	/**
 	 * Clears the Dictionary
 	 */
-	void ClearADT() {
+	void clearADT() {
 		
 	}
 	
 	/**
 	 * Displays all the values in the dictionary
 	 */
-	void Display() {
+	void display() {
 		
 	}
 	

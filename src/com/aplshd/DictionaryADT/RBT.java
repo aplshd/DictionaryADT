@@ -7,11 +7,23 @@ package com.aplshd.DictionaryADT;
 
 public class RBT extends Dictionary {
 	
+	public static RBT root;
+
+	boolean isBlack;
+
+	/**
+	 * Constructor
+	 */
+	RBT() {
+		//value = 0;
+		isBlack = true;
+	}
+
 	/**
 	 * inserts the integer val into the dictionary
 	 * @param val
 	 */
-	void Insert(int val) {
+	void insert(int val) {
 		
 	}
 	
@@ -20,7 +32,7 @@ public class RBT extends Dictionary {
 	 * @param val
 	 * @return 1 if deletion is successful
 	 */
-	boolean Delete(int val) {
+	boolean delete(int val) {
 		return true;
 	}
 	
@@ -29,21 +41,21 @@ public class RBT extends Dictionary {
 	 * @param val
 	 * @return 1 if element is found in the dictionary
 	 */
-	boolean Search(int val) {
+	boolean search(int val) {
 		return true;
 	}
 
 	/**
 	 * Clears the Dictionary
 	 */
-	void ClearADT() {
+	void clearADT() {
 		
 	}
 	
 	/**
 	 * Displays all the values in the dictionary
 	 */
-	void Display() {
+	void display() {
 		
 	}
 }
